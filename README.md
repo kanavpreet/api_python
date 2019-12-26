@@ -1,6 +1,10 @@
 Build the image using the following command
 
-
+mkdir <folder name>
+  
+cd <folder name>
+  
+ Clone repo- git clone <http link> 
 
 $ sudo  docker build -t simple-flask-app:latest .
 
