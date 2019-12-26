@@ -3,12 +3,10 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/hello/<string:message>")
-def hello(message):
-    if message is NONE:
-       return "hello strager"
-    if message is not NONE:
-       return "hello" + message
+@app.route("/hello")
+@app.route("/hello/<message>")
+def hello(message ="stranger"):
+    return "hello  " + message
 
 
 if __name__ == "__main__":
