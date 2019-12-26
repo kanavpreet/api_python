@@ -1,8 +1,8 @@
 Build the image using the following command
 
-mkdir <folder name>
+mkdir "folder name"
   
-cd <folder name>
+cd "folder name"
   
  Clone repo- git clone <http link> 
 
